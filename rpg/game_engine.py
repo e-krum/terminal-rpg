@@ -3,7 +3,7 @@ from rpg.characters.enemy import Dog, Bandit, Ranger, Chief
 from rpg.characters.player import Player
 
 def game_loop():
-    rounds = random.randint(2,3)
+    rounds = random.randint(4,6)
     name = input('Your name, traveler, what is your name? ')
     print(f'\nThe woods are filled with danger, {name}.\nBe prepared for what is to come...')
     separator('_', 15)
